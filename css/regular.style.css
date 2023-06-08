@@ -26,7 +26,7 @@
   top: calc(50vh - (var(--window-height) / 2));
   left: calc(50vw - (var(--window-width) / 2));
   z-index: -1;
-  background: url(/img/outside.jpg);
+  background: url(/img/outside-hq.webp), #000000;
   background-position: top left;
   background-repeat: no-repeat;
   background-size: var(--window-width) var(--window-height);
