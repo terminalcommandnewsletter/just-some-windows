@@ -1,0 +1,36 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background: #000000;
+    color: #ffffff;
+    margin: 0px;
+    text-align: center;
+}
+
+a {color: #00ff00;}
+
+.menu {
+    width: 50vw;
+    height: 30vh;
+    position: absolute;
+    left: 25vw;
+    top: 40vh;
+}
+
+.menu-option {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border: 0.3px solid #ffffff;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+    background: #2e2e2e;
+}
+
+.menu-option:hover {background: #1b1b1b;}
+
+.menu-option::after {content: " →"; transition: all 0.25s ease-in-out;}
+.menu-option:hover:after {margin-left: 2%;}
+
+.menu-option:active {background: #444444;}
