@@ -40,7 +40,7 @@ body {
   background: url(/img/wood.jpg);
   background-position: top left;
   background-repeat: no-repeat;
-  background-size: 200%;
+  background-size: 200vmax;
   font-family: "Courier New", Courier, monospace;
   margin: 0px;
 }
@@ -48,21 +48,3 @@ body {
 /* Day and night cycle animation */
 
 @keyframes day-night-cycle { 50% {filter: brightness(1.5) blur(6px); -webkit-filter: brightness(1.5) blur(6px);} 100% {filter: brightness(0) blur(6px); -webkit-filter: brightness(0) blur(6px);} }
-
-/* Media queries */
-
-@media (min-height: 400px) {body {background-size: 200% !important;}}
-
-@media (min-height: 800px) {body {background-size: 300% !important;}}
-
-@media (min-height: 1000px) {body {background-size: 400% !important;}}
-
-@media (min-height: 2000px) {body {background-size: 500% !important;}}
-
-@media (min-height: 2500px) {body {background-size: 650% !important;}}
-
-@media (min-height: 3000px) {body {background-size: 750% !important;}}
-
-@media (min-height: 3500px) {body {background-size: 850% !important;}}
-
-@media (min-height: 4000px) {body {background-size: 900% !important;}}
